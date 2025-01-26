@@ -1,0 +1,153 @@
+# Strings
+# =======================================================================================
+# This file contains all soft-coded strings of the theme.
+# You can edit them here if you want to change the wording of certain phrases,
+# e.g. maybe you prefer "Fetching…" to "Loading…", etc.
+#
+# You can also use this to "translate" the theme into different langauges,
+# but note that this may not work in all situations,
+# especially for languages that differ significantly from English.
+
+# Free version
+# ---------------------------------------------------------------------------------------
+home:                  Inicio
+pages:                 Páginas
+posts:                 Publicaciones
+about:                 Contacto
+related_posts:         Publicaciones Relacionadas
+other_projects:        Otros Proyectos
+comments:              Comentarios
+jump_to:               Saltar a
+navigation:            Navegación
+social:                Social
+links:                 Enlaces
+links_icon:            'icon-link'
+pagination:            Paginación
+newer:                 Más reciente
+older:                 Más antiguo
+forward:               Adelante
+back:                  Atrás
+permalink:             Enlace permanente
+permalink_icon:        'content-hash'
+templates:             Plantillas (para aplicación web)
+present:               presente
+toc:                   Tabla de Contenidos
+note:                  Nota
+description:           Descripción
+search:                Buscar
+search_placeholder:    Escribe algo…
+
+loading:               Cargando…
+redirecting:           Redirigiendo…
+
+continue_reading:      >
+  Continuar leyendo <!--post_title-->
+
+cookies_banner:
+  text:                >
+    Este sitio utiliza cookies. [Política de Cookies](/cookies-policy/).
+  okay:                Aceptar
+
+not_found:
+  title:               '404: Página No Encontrada'
+  message:             |
+    Lo sentimos, hemos perdido esa URL o está apuntando a algo que no existe.
+    <!--home_link--> para intentar encontrarlo de nuevo.
+  home_link:           Volver al inicio
+
+offline:
+  title:               'Estás Desconectado'
+  message:             |
+    Lo sentimos, pero parece que estás desconectado y esta página no ha sido preparada para visualización sin conexión.
+    <!--home_link--> para intentar encontrar otra página.
+  home_link:           Volver al inicio
+
+error:
+  title:               Error
+  message:             |
+    Lo sentimos, ocurrió un error al cargar <!--link-->.
+
+# Separadores
+# ---------------------------------------------------------------------------------------
+posted:                'Publicado'
+last_modified_at:      'Última modificación el'
+last_modified_at_icon: 'icon-history'
+colon:                 ':'
+separator:             '|'
+category_start:        'en '
+category_spearator:    ' / '
+tag_start:             'en '
+tag_separator:         ', '
+from_to_separator:     '–'
+breadcrumbs_home:      'inicio'
+breadcrumbs_separator: '/'
+
+# Formatos de fecha
+# ---------------------------------------------------------------------------------------
+date_formats:
+  post:                '%d %b %Y'
+  last_modified_at:    '%Y-%m-%d'
+  related_post:        '%d %b %Y'
+  list_group_by:       '%Y'
+  list_entry:          '%d %b'
+  project:             '%Y'
+  projects_group_by:   '%Y'
+  resume:              '%b %Y'
+
+
+# Versión PRO
+# ---------------------------------------------------------------------------------------
+# Si no posees la versión PRO de Hydejack, modificar estos no tendrá efecto.
+
+welcome:
+  more_projects:       Ver <!--projects_title--> para más
+  more_posts:          Ver <!--posts_title--> para más
+
+resume:
+  location:            Ubicación
+  location_separator:  ', '
+  email:               Correo electrónico
+  phone:               Teléfono
+  website:             Sitio web
+  work:                Recorrido laboral
+  work_title:          <!--position-->, <!--company-->
+  highlights:          Puntos destacados
+  volunteer:           Voluntariado
+  volunteer_title:     <!--position--> en <!--organization-->
+  education:           Educación
+  education_title:     <!--study_type--> <!--area--><br><!--institution--> <!--gpa-->
+  courses:             Cursos
+  awards:              Premios
+  awards_title:        <!--title--> de <!--awarder-->
+  publications:        Publicaciones
+  publications_title:  <!--name--> por <!--publisher-->
+  references:          Referencias
+  languages:           Idiomas
+  fluency:             Fluidez
+  skills:              Habilidades
+  level:               Nivel
+  interests:           Intereses
+  summary:             Resumen
+  keywords:            Palabras clave
+  print:               Imprimir
+  download_pdf:        PDF
+  download_vcf:        vCard
+  download_json:       JSON
+  icons:
+    fallback:          icon-link
+    location:          icon-location
+    born:              icon-quill
+    citizenship:       icon-flag
+    maritalStatus:     icon-man-woman
+    email:             icon-envelop
+    phone:             icon-phone
+    website:           icon-home3
+    work:              icon-briefcase
+    volunteer:         icon-earth
+    education:         icon-book
+    awards:            icon-trophy
+    publications:      icon-book
+    references:        icon-quotes-right
+    languages:         icon-bubbles
+    skills:            icon-wrench
+    interests:         icon-heart

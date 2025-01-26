@@ -1,0 +1,224 @@
+basics:
+  name: "Neirotti, Pablo"
+  label: "Cientista de datos"
+  picture: #/assets/img/foto_cv_square.png
+  email: "neirotti.contacto@gmail.com"
+  phone: "(+549) 11-3957-7119"
+  website: "https://whiletruetry.github.io/"
+  summary: >
+    ¡Hola! Soy Pablo, analista y cientista de datos.<br>
+    Trabajo con varios lenguajes de programación, principalmente Python.<br>
+    En los últimos años me he especializado en el campo del NLP.<br>
+  location:
+    address: #"2712 Broadway St"
+    postalCode: #"CA 94115"
+    city: "Buenos Aires"
+    countryCode: "Argentina"
+    region: #"Buenos Aires"
+  profiles:
+    - network: "Github"
+      username: "WhileTrueTry"
+      url: "https://github.com/whiletruetry"
+    - network: "LinkedIn"
+      username: "Neirotti, Pablo"
+      url: "https://www.linkedin.com/in/pablo-neirotti/"
+work:
+  - company: "en Ministerio de Educación de la Nación"
+    position: "Analista de datos"
+    startDate: Oct 2023
+    endDate: ""
+    summary: >
+      Diseño de indicadores, desarrollo y aplicación de estrategias de análisis. 
+      <br>Elaboración de tableros de datos. 
+      <br>Diseño y mantenimiento de un Data Lake y un Data Warehouse.
+  - company: "trabajo freelance"
+    position: "Desarrollador de bots de Whatsapp"
+    startDate: Oct 2023
+    endDate: ""
+    summary: >
+      Diseño y desarrollo de chatbots y spambots. 
+      <br>Integración de LLMs con técnicas de ajuste, memoria, RAG, etc...
+      <br>Deployment en la nube.
+  - company: "en Remotasks / Outlier, trabajo freelance"
+    position: "Programador para RL-HF"
+    startDate: Jan 2024
+    endDate: ""
+    summary: >
+      Comparación y rectificación de respuestas de LLMs en tareas relacionadas con
+      <br> la generación de código de programación y la utilización de herramientas.  
+  - company: "en FLACSO"
+    position: "Docente"
+    startDate: Feb 2024
+    endDate: Feb 2024
+    summary: >
+      Clase grabada: "Ciencia de datos para las Ciencias Sociales",
+      <br> para el Diploma Superior en Evaluación de Políticas Públicas
+  - company: "en Movimiento Nacional de Empresas Recuperadas"
+    position: "Analista de datos"
+    startDate: Dec 2021
+    endDate: Oct 2023
+    summary: >
+      Investigación y evaluación. Recolección y análisis de datos. 
+      <br>Desarrollo de estrategias de marketing y comunicación.
+      <br> Administrador web de Mercado Mia.
+  - company: "en Econdb"
+    position: "Analista de marketing"
+    startDate: Oct 2021
+    endDate: Feb 2022
+    summary: >
+      Diseño de productos y estrategias de venta.
+      <br>Detección de anomalías en series de tiempo
+  - company: "en Scrum"
+    position: "Analista de datos"
+    startDate: Sep 2019
+    endDate: Nov 2021
+    summary: >
+      Recolección y análisis de datos en redes sociales.
+      <br>Diseño de estrategias comunicacionales
+  - company: "en Editorial Pluriverso"
+    position: "Traductor y Corrector"
+    startDate: Jul 2019
+    endDate: May 2020
+    summary: >
+      Traducción de textos de teoría social.
+      <br> Edición y corrección para publicaciones académicas.
+education:
+  - institution: "Escuela de Ciencia y Tecnología - Universidad Nacional de San Martín (UNSaM)"
+    principal: true
+    area: "Ciencias de Datos"
+    studyType: "Licenciatura en"
+    startDate: Jun 2022
+    endDate: ""
+  - institution: "Facultad de Ciencias Sociales - Universidad de Buenos Aires (UBA)"
+    principal: true
+    area: "Sociología"
+    studyType: "Licenciatura en"
+    startDate: Mar 2016
+    endDate: Dec 2021
+    courses: 
+      - "90% promocionado con un promedio de 9.10. Carrera interrumpida."
+  - institution: "ICIFI - ECyT - UNSaM"
+    area: "Sistemas complejos en el Conurbano Bonaerense"
+    studyType: "Escuela y Workshop de"
+    startDate: Jul 2024
+    endDate: Jul 2024
+  - institution: "Escuela de Ciencia y Tecnología - Universidad Nacional de San Martín (UNSaM)"
+    area: "Proyecto de I.A. interdisciplinario"
+    studyType: "Seminario de programación en Python, "
+    startDate: Jul 2023
+    endDate: Dec 2023
+  - studyType: "<br>Otros estudios"
+    courses:
+      - "Detección de basurales con GIS e IA (Fundación Bunge y Born, 2023)"
+      - "Generative AI with Large Language Models (Coursera, 2023)"
+      - "Machine Learning (Coursera, 2021)"
+      - "Transfer Learning con HuggingFace (Platzi, 2023)"
+      - "Desarrollo de aplicaciones de IA con Langchain: Chatbots (Platzi, 2023)"
+      - "Prompt engineering con ChatGPT (Platzi, 2023)"
+      - "Embeddings y bases de datos vectoriales para NLP (Platzi, 2023)"
+      - "Desarrollo de Chatbots con OpenAI (Platzi, 2023)"
+
+skills:
+  - name: "Python"
+    level: "4/5"
+    keywords:
+      - "pandas"
+      - "numpy"
+      - "keras"
+      - "scikit-learn"
+      - "spacy"
+      - "langchain"
+      - "langgraph"
+      - "transformers"
+      - "streamlit"
+      - "plotly"
+      - "matplotlib"
+      - "bs4"
+      - "selenium"
+    icon: 
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+  - name: "R"
+    level: "3/5"
+    keywords:
+      - "tidyverse"
+      - "quanteda"
+      - "shiny"
+      - "caret"
+      - "tm"
+    icon: 
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg"
+  - name: "Javascript / Typescript"
+    level: "2/5"
+    keywords:
+      - "Node"
+      - "langchain, langgraph"
+      - "electron"
+    icon:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+  - name: "HTML5 / CSS3"
+    level: "2/5"
+    icon:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+  - name: "Java"
+    level: "1/5"
+    icon:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
+  - name: "Bash"
+    level: "2/5"
+    icon:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
+  - name: "Bases de datos"
+    level: "3/5"
+    keywords:
+      - "BBDD relacionales"
+      - "variedades SQL"
+      - "NoSQL"
+      - "BBDD vectoriales para NLP"
+    icon: 
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
+  - name: "Cloud"
+    level: "2/5"
+    keywords:
+      - "AWS"
+      - "Google Cloud"
+    icon: 
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original-wordmark.svg"
+  - name: "Otras"
+    keywords:
+      - "PowerBI, Tableau, Looker"
+      - "HuggingFace"
+      - "Gephi"
+      - "n8n"
+      - "Excel"
+      - "slides, PPT"
+      - "API Keys"
+      - "etc..."
+    icon:
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/anaconda/anaconda-original-wordmark.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spss/spss-original.svg"
+      - "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg"
+
+
+languages:
+  - language: "Inglés"
+    fluency: "4/5"
+  - language: "Francés"
+    fluency: "1/5"
+interests:
+  - name: "Teorías post-estructuralistas"
+  - name: "Sistemas complejos, dinámicas no lineales"
+  - name: "Análisis de redes"
+  - name: "NLP"
+  - name: "Chatbots"
+  - name: "Modelos basados en Agentes"
+  - name: "Web Scraping"

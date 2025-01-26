@@ -1,0 +1,10 @@
+{% assign from_to_separator = strings.from_to_separator | default:strings.resume.from_to_separator | default:"–" %}
+{% assign present = strings.present | default:strings.resume.present | default:"present" %}
+
+<time datetime="{{ include.from | date_to_xmlschema }}">{{ include.from | date:"%b %Y" | replace: "Jan", "Ene" | replace: "Apr", "Abr" | replace: "Aug", "Ago" | replace: "Dec", "Dic" }}</time>
+{{from_to_separator}}
+{% if include.to.size > 0 %}
+  <time datetime="{{ include.to | date_to_xmlschema }}">{{ include.to | date:"%b %Y" | replace: "Jan", "Ene" | replace: "Apr", "Abr" | replace: "Aug", "Ago" | replace: "Dec", "Dic" }}</time>
+{% else %}
+  <em>{{present}}</em>
+{% endif %}
